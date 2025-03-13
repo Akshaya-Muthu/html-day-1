@@ -1,4 +1,10 @@
 * {
-    background-color:gainsboro;
+    background-color:lavenderblush;
     font-style:oblique;
 }
+div {
+    display: inline;
+    border: 1 px solid blueviolet;
+    background-color: yellow;
+    color: red;
+   }

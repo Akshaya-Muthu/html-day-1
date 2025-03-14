@@ -10,6 +10,7 @@ body {
 .out-border {
     text-align: center;
     background-color:aqua;
+    border-color: black;
     
 }
 .outer-box{
@@ -19,17 +20,17 @@ body {
     width: 300px;
     height: 200px;
     position: relative;
-    background: linear-gradient(to right, purple, red, aqua, black);
+    background: linear-gradient(to right, purple,green,red,black);
     display: flex;
     justify-content: center;
     align-items: center;
     border-style:dotted;
-    padding:75px 100px 100px 75px;
+    padding:75px;
 }
 
 .gradient-circle {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background: radial-gradient(circle, red, green, blue);
     border-radius: 50%;
     display: flex;
@@ -50,7 +51,7 @@ body {
     width: 80px;
     height: 40px;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     font-weight: bold;
     color: white;
 }
